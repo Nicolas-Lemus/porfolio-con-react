@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik+Wet+Paint&family=Russo+One&display=swap');
+
+.welcome{
+    background:#0f1d2a;
+    margin-top: 0;
+}
+.welcome h2{
+    font-size: 2rem;
+    padding-top: 3rem;
+    margin-left: 1rem;
+    color:rgb(33, 182, 0);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-family: 'Russo One', sans-serif;
+}
+.welcome h3{
+    color:white;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+.welcome h4{
+    color: #fff;
+    padding-left: 4rem;
+    margin-top: -0.65rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.welcome h4 span{
+    font-size: 1.6rem;
+    color: rgb(33, 182, 0);
+    opacity: 90%;
+    text-decoration: underline;
+}
+.welcome H5{
+    color: white;
+    margin-top: 3rem;
+    font-size: .8rem;
+    margin-left: 4rem;
+}
+.welcome__social{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.welcome__social img {
+    width: 40px;
+    margin-right: 1rem;
+}
+.welcome__social img:hover{
+    background: rgba(255, 255, 255, 0.711);
+    cursor: pointer;
+    border-radius: 30%;
+    transition: .6s linear;
+}
+
+.welcome__perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f1d2a;
+    height: 320px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    max-width: 350px;
+    background: linear-gradient(rgba(32, 95, 1, 0.801),rgba(90, 180, 45, 0.71),rgb(255, 255, 255));
+    border-radius:50%;
+}
+
+.welcome__perfil img{
+    width: 100%;
+    border-radius: 0 0 195px 190px;
+    padding: 1.1rem;
+}
+.div{
+    background:#0f1d2a;
+}

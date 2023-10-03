@@ -1,0 +1,10 @@
+.informacion{
+    padding-top: 6rem;
+    background:#0f1d2a;
+    height: 320px;
+    margin: 0 auto;
+}
+.informacion img{
+    width: 350px;
+    background: green;
+}

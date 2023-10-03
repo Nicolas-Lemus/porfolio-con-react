@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik+Wet+Paint&family=Russo+One&display=swap');
+
+.container-fluid{
+    background:#0f1d2a;
+    height: 70px;
+}
+.container-fluid a{
+    color: whitesmoke;
+}
+.links a{
+    color: white;
+}
+.navbar__primary{
+    margin: 0 !important;
+    padding: 0;
+}
+.style__logo{
+    color: rgb(33, 182, 0) !important;
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-family: 'Russo One', sans-serif;
+}
+.navbar-toggler{
+    border: none;
+    background:rgb(33, 182, 0);
+}
+.offcanvas, .offcanvas-end, .show{
+    background:#031528;
+    color: rgb(251, 251, 251);
+}
+.navbar-nav{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-family: 'Russo One', sans-serif;
+}
+.offcanvas-title{
+    font-size: 2rem;
+    color:rgb(33, 182, 0);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-family: 'Russo One', sans-serif;
+}
+.nav-link:hover{
+    color:rgb(33, 182, 0);
+    transition: .8s all;
+    opacity: 85%;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color:rgb(33, 182, 0);
+}
