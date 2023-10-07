@@ -12,6 +12,8 @@
     border-radius: 5px;
     border-width: 1px 5px 5px 1px;
     border-style:double;
+    background-image: url(../../images/side-wave_background.jpg);
+    background-size: cover;
     border-color: green;
     filter: drop-shadow(1px 1px 1px rgba(5, 123, 5, 0.451));
 }

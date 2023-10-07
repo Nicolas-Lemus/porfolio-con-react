@@ -2,15 +2,13 @@
 
 .welcome{
     background:#0f1d2a;
-    margin-top: 0;
+    margin-top: 2rem;
 }
 .welcome h2{
     font-size: 2rem;
     padding-top: 3rem;
     margin-left: 1rem;
     color:rgb(33, 182, 0);
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Rubik Wet Paint', cursive;
     font-family: 'Russo One', sans-serif;
 }
 .welcome h3{
@@ -29,6 +27,7 @@
     font-size: 1.6rem;
     color: rgb(33, 182, 0);
     opacity: 90%;
+    font-weight: 700;
     text-decoration: underline;
 }
 .welcome H5{
@@ -47,19 +46,19 @@
 }
 
 #inst:hover{
-    background: rgba(255, 255, 255, 0.711);
+    background: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 30%;
     transition: .6s linear;
 }
 #link:hover{
-    background: rgba(255, 255, 255, 0.711);
+    background: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 20%;
     transition: .6s linear;
 }
 #git:hover{
-    background: rgba(255, 255, 255, 0.711);
+    background: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 50%;
     transition: .6s linear;

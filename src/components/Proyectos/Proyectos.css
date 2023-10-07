@@ -3,6 +3,11 @@
     padding-left: 2rem;
     font-size: 3rem;
 }
+#y{
+    font-size: 3.6rem;
+    color: green;
+    font-weight: 700;
+}
 .proyectos h2 span{
     font-size:4rem;
 }
@@ -24,6 +29,7 @@
     max-width: 410px;
     margin: .5rem;
     border-radius: 10px;
+    box-shadow: 1px 1px 9px rgb(19, 77, 1);
 }
 .proyectos__description h3{
     color: white;
@@ -34,8 +40,8 @@
     color: white;
     padding: 2rem;
     margin: 1.5rem;
-    border: 1px solid green;
     border-radius: 5px;
+    border: 1px solid green;
     box-shadow: 1px 1px 13px green;
 }
 .boton{
@@ -52,6 +58,7 @@
 .boton:hover{
     border: 1px solid rgb(255, 255, 255);
     transition: 1s;
+    box-shadow: 1px 1px 5px white;
 }
 .cep{
     display: grid;

@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik+Wet+Paint&family=Russo+One&display=swap');
-
+header{
+    padding-top: 2rem;
+}
 .container-fluid{
     background:#0f1d2a;
     height: 70px;
+    position: fixed;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
 }
 .container-fluid a{
     color: whitesmoke;
@@ -13,6 +21,8 @@
 .navbar__primary{
     margin: 0 !important;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 .style__logo{
     color: rgb(33, 182, 0) !important;
