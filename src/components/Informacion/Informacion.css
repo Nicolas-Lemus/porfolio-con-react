@@ -1,10 +1,67 @@
 .informacion{
-    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
     background:#0f1d2a;
-    height: 320px;
+    width: 100%;
     margin: 0 auto;
 }
 .informacion img{
-    width: 350px;
-    background: green;
+    width: 370px;
+    border-radius: 5px;
+    border-width: 1px 5px 5px 1px;
+    border-style:double;
+    border-color: green;
+    filter: drop-shadow(1px 1px 1px rgba(5, 123, 5, 0.451));
 }
+
+.informacion__title h2{
+    background:#0f1d2a;
+    color: white;
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+.informacion__title h2 span{
+    font-size:4rem;
+}
+span.animate__flash{
+    animation-name: flash; 
+    animation-duration: 3s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes flash{
+    0%, 50%, 100% {
+        opacity: 1; 
+    }
+    25%, 75% {
+        opacity: 0; 
+    }
+}
+span.animate__flash2{
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-delay: .3s;
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+}
+span.animate__flash3{
+    animation-name: flash; 
+    animation-duration: 3s;
+    animation-delay: .5s;
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+}
+.informacion__title p{
+    background:#145808;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 3rem 1rem;
+    font-size: 1.2rem;
+    max-width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

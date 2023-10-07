@@ -35,7 +35,7 @@
     color: white;
     margin-top: 3rem;
     font-size: .8rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
 }
 .welcome__social{
     margin-top: 1rem;
@@ -45,13 +45,25 @@
     width: 40px;
     margin-right: 1rem;
 }
-.welcome__social img:hover{
+
+#inst:hover{
     background: rgba(255, 255, 255, 0.711);
     cursor: pointer;
     border-radius: 30%;
     transition: .6s linear;
 }
-
+#link:hover{
+    background: rgba(255, 255, 255, 0.711);
+    cursor: pointer;
+    border-radius: 20%;
+    transition: .6s linear;
+}
+#git:hover{
+    background: rgba(255, 255, 255, 0.711);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: .6s linear;
+}
 .welcome__perfil{
     display: flex;
     justify-content: center;
@@ -70,6 +82,9 @@
     width: 100%;
     border-radius: 0 0 195px 190px;
     padding: 1.1rem;
+}
+.welcome__perfil img:hover{
+    filter: drop-shadow(1px 1px 2px rgba(255, 255, 255, 0.299));
 }
 .div{
     background:#0f1d2a;

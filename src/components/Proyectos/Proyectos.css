@@ -1,0 +1,64 @@
+.proyectos h2{
+    color: white;
+    padding-left: 2rem;
+    font-size: 3rem;
+}
+.proyectos h2 span{
+    font-size:4rem;
+}
+.proyectos__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.proyectos__images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.proyectos__description img{
+    width: 100%;
+    max-width: 410px;
+    margin: .5rem;
+    border-radius: 10px;
+}
+.proyectos__description h3{
+    color: white;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+.proyectos__description p{
+    color: white;
+    padding: 2rem;
+    margin: 1.5rem;
+    border: 1px solid green;
+    border-radius: 5px;
+    box-shadow: 1px 1px 13px green;
+}
+.boton{
+    background: green;
+    border-radius: 17px;
+    border: none;
+    padding: .5rem;
+    font-weight: 700;
+}
+.boton a{
+    color: white;
+    text-decoration: none;
+}
+.boton:hover{
+    border: 1px solid rgb(255, 255, 255);
+    transition: 1s;
+}
+.cep{
+    display: grid;
+    place-items: center;
+    width: 80%;
+    height: 1px;
+    margin: 2rem auto;
+    background:rgba(0, 128, 0, 0.427);
+}
+

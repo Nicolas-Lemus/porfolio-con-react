@@ -1,0 +1,11 @@
+.ceparador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0;
+}
+.ceparador2{
+    width: 50%;
+    height: 2px;
+    background: rgb(4, 140, 20);
+}

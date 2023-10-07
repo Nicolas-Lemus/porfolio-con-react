@@ -12,11 +12,11 @@ const Welcome = () => {
         <h2>Bienvenid@s</h2>
         <h3>Soy Nicolas Lemus...</h3>
         <h4>Front-End <span>Developers</span></h4>
-        <h5>🟢Desarrollo Web🟢 HTML5 CSS3 JAVASCRIPT REACT JS</h5>
+        <h5>🟢Desarrollo Web🟢HTML5🟢CSS3🟢JAVASCRIPT🟢REACT JS🟢</h5>
         <section className='welcome__social'>
-          <a href="https://www.instagram.com/nicolaslemuscurbelo/"><img src={instagram} alt="Instagram" /></a>
-          <a href="https://www.linkedin.com/in/nicolas-lemus-119761265/"><img src={linkedin} alt="Linkedin" /></a>
-          <a href="https://github.com/Nicolas-Lemus"><img src={github} alt="GitHub" /></a>
+          <a target='blank' href="https://www.instagram.com/nicolaslemuscurbelo/"><img id='inst' src={instagram} alt="Instagram" /></a>
+          <a target='blank' href="https://www.linkedin.com/in/nicolas-lemus-119761265/"><img id='link' src={linkedin} alt="Linkedin" /></a>
+          <a target='blank' href="https://github.com/Nicolas-Lemus"><img id='git' src={github} alt="GitHub" /></a>
         </section>
       </section>
       <section className='welcome__perfil'>
